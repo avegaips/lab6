@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <nav class="navbar md:navbar-expand bg-1">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Nine Lives Rescue</a>
@@ -33,7 +34,7 @@
             <a class="nav-link" href="#">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link active" href="contact.html">Contact Us</a>
           </li>
         </ul>
         <form class="hstack gap-2" role="search">
@@ -46,6 +47,9 @@
     </dialog>
   </div>
 </nav>
+
+<main>
+<h1 class="text-center m-8">Have a Question? Contact Us</h1>
 
 <div class="container mt-3">
 <form style="max-width: 900px" class="mx-auto">
@@ -71,7 +75,7 @@
     <div class="md:col-6">
         <div class="form-field">
             <label for="inquiryForm" class="form-label">Inquiry Type</label>
-            <select class="form-control" id="exampleFormControlSelect2">
+            <select class="form-control" id="inquiryForm">
                 <option>Choose one</option>
                 <option value="1">Adoption</option>
                 <option value="2">Volunteering</option>
@@ -96,7 +100,10 @@
     <button class="btn-solid theme-primary mt-5">Submit</button>
 </form>
 </div>
+</main>
 
-
+<footer class="bg-primary text-center p-3 mt-5">
+  <p>Copyright 2026 Nine Lives Rescue. All rights reserved.</p>
+</footer>
 
 </body>
